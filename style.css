@@ -10,7 +10,6 @@
 }
 
 .navbar{
-    border: 2px solid black;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -50,4 +49,18 @@
 
 .menu ul a:hover::after {
     width: 100%;
+}
+
+.section{
+    min-height: 90vh;
+    padding: 20px;
+    background-image: linear-gradient(to top,lightblue,skyblue);
+}
+
+.section .title h1{
+    text-align: center;
+}
+
+.images img{
+    height: 200px;
 }
